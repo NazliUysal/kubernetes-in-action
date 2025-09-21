@@ -14,7 +14,7 @@ var handler = function(request, response) {
     return;
   }
   response.writeHead(200);
-  response.end("You've hit " + os.hostname() + "\n");
+  response.end("You've hit NEW VERSION v0.2\n");
 };
 
 var www = http.createServer(handler);
